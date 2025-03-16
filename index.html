@@ -1,3 +1,84 @@
 <html>
-  <body>hola</body>
+<head>
+    <title>Menú | Date el Gusto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: black;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #d32f2f;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: black;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h2 {
+            color: #d32f2f;
+            border-bottom: 2px solid #d32f2f;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .menu-item {
+            display: flex;
+            color: white;
+            justify-content: space-between;
+            padding: 5px 0;
+            border-bottom: 1px dashed #ccc;
+            text-align: left;
+        }
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+        .price {
+            font-weight: bold;
+            color: #d32f2f;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Menú de "Date el Gusto"
+</header>
+
+<div class="container">
+    <h2>Quesadillas</h2>
+    <div class="menu-item"><span>Queso</span><span class="price">$35</span></div>
+    <div class="menu-item"><span>Tinga</span><span class="price">$35</span></div>
+    <div class="menu-item"><span>Chicharron</span><span class="price">$35</span></div>
+
+    <h2>Antojitos</h2>
+    <div class="menu-item"><span>Tacos dorados de papas con<br> longaniza o pollo (5 piezas)</span><span class="price">$50</span></div>
+    <div class="menu-item"><span>Enmoladas</span><span class="price">$70</span></div>
+    <div class="menu-item"><span>Enchiladas verdes</span><span class="price">$50</span></div>
+    <div class="menu-item"><span>chilaquiles</span><span class="price">$50</span></div>
+    <div class="menu-item"><span>con bisteck</span><span class="price">$80</span></div>
+    <div class="menu-item"><span>Pambazos de mole verde<br>o papa con longaniza</span><span class="price">$35</span></div>
+
+    <h2>Bebidas</h2>
+    <div class="menu-item"><span>Aguas frescas<br>Sabores:<br>horchata<br>Jamaica<br>Guayaba<br>Fresa<br>Mango</span><span class="price">Medio litro $25<br>Litro $40</span></div>
+    <div class="menu-item"><span>Piña colada</span><span class="price">Medio litro $50<br>Litro $90</span></div>
+    <div class="menu-item"><span>Refrescos</span><span class="price">$25</span></div>
+    <div class="menu-item"><span>Café de olla</span><span class="price">$20</span></div>
+
+    <h2>Postres</h2>
+    <div class="menu-item"><span>Buñuelos con miel</span><span class="price">$40</span></div>
+    <div class="menu-item"><span>Flan casero</span><span class="price">$35</span></div>
+    <div class="menu-item"><span>Churros con chocolate</span><span class="price">$50</span></div>
+</div>
+
+</body>
 </html>
